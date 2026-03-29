@@ -6,6 +6,8 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/"
 };
 
+
+
 export default function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
@@ -76,3 +78,6 @@ export default function App() {
     </div>
   );
 }
+
+
+
